@@ -19595,8 +19595,8 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <connect gate="G$1" pin="FB" pad="4"/>
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="GND@1" pad="6"/>
-<connect gate="G$1" pin="IN" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -34986,8 +34986,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="24V" library="testpad" deviceset="PTR1" device="TP12SQ" value=""/>
 <part name="+5V" library="testpad" deviceset="PTR1" device="TP12SQ" value=""/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
-<part name="P+52" library="supply1" deviceset="+5V" device="" value="+24V"/>
-<part name="P+53" library="supply1" deviceset="+5V" device=""/>
 <part name="FID1" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$1" library="SAV MK-I" deviceset="SANGUINOLOLU_PLATED-SCREW" device=""/>
 <part name="U$2" library="SAV MK-I" deviceset="SANGUINOLOLU_PLATED-SCREW" device=""/>
@@ -35033,8 +35031,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="FID2" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="FID3" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="+24V" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="control"/>
-<part name="GND20" library="testpad" deviceset="PTR1" device="TP12SQ" value="PTR1TP12SQ"/>
-<part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="SD" library="MarcEagleParts" deviceset="M06" device="SIP"/>
 <part name="ENDSTOPS" library="MarcEagleParts" deviceset="PINCONNECTOR-7X3" device=""/>
 <part name="FANS" library="jumper" deviceset="JP4QE" device=""/>
@@ -35159,7 +35155,7 @@ Normally strips go to 12V but we have 24V in our board</text>
 <instance part="P+2" gate="1" x="17.78" y="297.18"/>
 <instance part="P+27" gate="1" x="251.46" y="363.22"/>
 <instance part="GND27" gate="1" x="256.54" y="281.94"/>
-<instance part="R16" gate="G$1" x="314.96" y="213.36" rot="R180"/>
+<instance part="R16" gate="G$1" x="312.42" y="213.36" rot="R180"/>
 <instance part="R17" gate="G$1" x="320.04" y="208.28" rot="R270"/>
 <instance part="D3" gate="G$1" x="320.04" y="228.6" rot="R90"/>
 <instance part="HOTBED" gate="G$1" x="342.9" y="231.14" rot="R180"/>
@@ -35218,10 +35214,8 @@ Normally strips go to 12V but we have 24V in our board</text>
 <instance part="LOGO1" gate="G$1" x="78.74" y="347.98"/>
 <instance part="GND" gate="G$1" x="162.56" y="347.98" rot="R180"/>
 <instance part="24V" gate="G$1" x="170.18" y="347.98"/>
-<instance part="+5V" gate="G$1" x="182.88" y="347.98"/>
+<instance part="+5V" gate="G$1" x="177.8" y="347.98"/>
 <instance part="GND52" gate="1" x="162.56" y="342.9"/>
-<instance part="P+52" gate="1" x="170.18" y="355.6"/>
-<instance part="P+53" gate="1" x="182.88" y="355.6"/>
 <instance part="FID1" gate="G$1" x="-55.88" y="83.82"/>
 <instance part="U$1" gate="G$1" x="215.9" y="358.14"/>
 <instance part="U$2" gate="G$1" x="215.9" y="347.98"/>
@@ -35267,8 +35261,6 @@ Normally strips go to 12V but we have 24V in our board</text>
 <instance part="FID2" gate="G$1" x="-50.038" y="83.82"/>
 <instance part="FID3" gate="G$1" x="-44.196" y="83.82"/>
 <instance part="+24V" gate="G$1" x="40.64" y="294.64"/>
-<instance part="GND20" gate="G$1" x="175.26" y="347.98" rot="R180"/>
-<instance part="GND16" gate="1" x="175.26" y="342.9"/>
 <instance part="SD" gate="G$1" x="165.1" y="284.48"/>
 <instance part="ENDSTOPS" gate="-1" x="261.62" y="353.06" rot="R270"/>
 <instance part="ENDSTOPS" gate="-2" x="261.62" y="342.9" rot="R270"/>
@@ -35663,10 +35655,6 @@ Normally strips go to 12V but we have 24V in our board</text>
 <pinref part="FANS" gate="-4" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND20" gate="G$1" pin="TP"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="+24V1" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="279.4" x2="53.34" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="279.4" x2="53.34" y2="274.32" width="0.1524" layer="91"/>
@@ -35804,16 +35792,6 @@ Normally strips go to 12V but we have 24V in our board</text>
 <wire x1="116.84" y1="297.18" x2="116.84" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="+5V" gate="G$1" pin="TP"/>
-<pinref part="P+53" gate="1" pin="+5V"/>
-<wire x1="182.88" y1="350.52" x2="182.88" y2="353.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="24V" gate="G$1" pin="TP"/>
-<pinref part="P+52" gate="1" pin="+5V"/>
-<wire x1="170.18" y1="350.52" x2="170.18" y2="353.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X0-AXIS" gate="G$1" pin="3"/>
 <wire x1="297.18" y1="335.28" x2="307.34" y2="335.28" width="0.1524" layer="91"/>
 <label x="297.18" y="335.28" size="1.778" layer="95"/>
@@ -35913,6 +35891,12 @@ Normally strips go to 12V but we have 24V in our board</text>
 <pinref part="FANS" gate="-3" pin="1"/>
 <pinref part="FANS" gate="-4" pin="1"/>
 </segment>
+<segment>
+<pinref part="+5V" gate="G$1" pin="TP"/>
+<wire x1="177.8" y1="350.52" x2="177.8" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="355.6" x2="182.88" y2="355.6" width="0.1524" layer="91"/>
+<label x="177.8" y="353.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -35985,8 +35969,9 @@ Normally strips go to 12V but we have 24V in our board</text>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="320.04" y1="213.36" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
-<junction x="320.04" y="213.36"/>
+<wire x1="317.5" y1="213.36" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
+<junction x="317.5" y="213.36"/>
+<wire x1="317.5" y1="213.36" x2="320.04" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -36015,13 +36000,13 @@ Normally strips go to 12V but we have 24V in our board</text>
 <net name="PWM_HOTBED" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="309.88" y1="213.36" x2="289.56" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="213.36" x2="289.56" y2="213.36" width="0.1524" layer="91"/>
 <label x="289.56" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ATMEGA2560" gate="A" pin="(OC2A/PCINT4)_PB4"/>
-<wire x1="12.7" y1="182.88" x2="-5.08" y2="182.88" width="0.1524" layer="91"/>
-<label x="-2.54" y="182.88" size="1.778" layer="95"/>
+<pinref part="ATMEGA2560" gate="A" pin="(OC0B)_PG5"/>
+<wire x1="104.14" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
+<label x="106.68" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BED_THERM" class="0">
@@ -36235,56 +36220,48 @@ Normally strips go to 12V but we have 24V in our board</text>
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PC0_(A8)"/>
 <wire x1="12.7" y1="170.18" x2="-5.08" y2="170.18" width="0.1524" layer="91"/>
-<label x="-2.54" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$92" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PC1_(A9)"/>
 <wire x1="12.7" y1="167.64" x2="-5.08" y2="167.64" width="0.1524" layer="91"/>
-<label x="-2.54" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$93" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PC2_(A10)"/>
 <wire x1="12.7" y1="165.1" x2="-5.08" y2="165.1" width="0.1524" layer="91"/>
-<label x="-2.54" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$94" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PC3_(A11)"/>
 <wire x1="12.7" y1="162.56" x2="-5.08" y2="162.56" width="0.1524" layer="91"/>
-<label x="-2.54" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$95" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PC4_(A12)"/>
 <wire x1="12.7" y1="160.02" x2="-5.08" y2="160.02" width="0.1524" layer="91"/>
-<label x="-2.54" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$96" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PC5_(A13)"/>
 <wire x1="12.7" y1="157.48" x2="-5.08" y2="157.48" width="0.1524" layer="91"/>
-<label x="-2.54" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$97" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PC6_(A14)"/>
 <wire x1="12.7" y1="154.94" x2="-5.08" y2="154.94" width="0.1524" layer="91"/>
-<label x="-2.54" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$98" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PC7_(A15)"/>
 <wire x1="12.7" y1="152.4" x2="-5.08" y2="152.4" width="0.1524" layer="91"/>
-<label x="-2.54" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -36305,21 +36282,18 @@ Normally strips go to 12V but we have 24V in our board</text>
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="(XCK1)_PD5"/>
 <wire x1="12.7" y1="134.62" x2="-5.08" y2="134.62" width="0.1524" layer="91"/>
-<label x="-2.54" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$105" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="(T1)_PD6"/>
 <wire x1="12.7" y1="132.08" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
-<label x="-2.54" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$106" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="(T0)_PD7"/>
 <wire x1="12.7" y1="129.54" x2="-5.08" y2="129.54" width="0.1524" layer="91"/>
-<label x="-2.54" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$109" class="0">
@@ -36368,12 +36342,6 @@ Normally strips go to 12V but we have 24V in our board</text>
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="(TOSC1)_PG4"/>
 <wire x1="104.14" y1="203.2" x2="124.46" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$128" class="0">
-<segment>
-<pinref part="ATMEGA2560" gate="A" pin="(OC0B)_PG5"/>
-<wire x1="104.14" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$129" class="0">
@@ -36598,6 +36566,12 @@ Normally strips go to 12V but we have 24V in our board</text>
 <pinref part="CARRIAGE3" gate="G$1" pin="6"/>
 <wire x1="345.44" y1="154.94" x2="360.68" y2="154.94" width="0.1524" layer="91"/>
 <label x="347.98" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="24V" gate="G$1" pin="TP"/>
+<wire x1="170.18" y1="350.52" x2="170.18" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="355.6" x2="175.26" y2="355.6" width="0.1524" layer="91"/>
+<label x="170.18" y="353.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$161" class="0">
@@ -37335,18 +37309,54 @@ Normally strips go to 12V but we have 24V in our board</text>
 <junction x="55.88" y="287.02"/>
 </segment>
 </net>
+<net name="11111" class="0">
+<segment>
+<pinref part="ATMEGA2560" gate="A" pin="(OC2A/PCINT4)_PB4"/>
+<wire x1="12.7" y1="182.88" x2="-5.08" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,12.7,241.3,ATMEGA2560,AVCC,+5V,,,"/>
+<approved hash="104,1,12.7,238.76,ATMEGA2560,VCC_2,+5V,,,"/>
+<approved hash="104,1,12.7,236.22,ATMEGA2560,VCC_3,+5V,,,"/>
+<approved hash="104,1,12.7,233.68,ATMEGA2560,VCC_4,+5V,,,"/>
+<approved hash="104,1,12.7,231.14,ATMEGA2560,VCC,+5V,,,"/>
+<approved hash="104,1,154.94,142.24,IC2,VCC,+5V,,,"/>
+<approved hash="104,1,154.94,139.7,IC2,VCCIO,+5V,,,"/>
 <approved hash="113,1,-38.8408,248.92,Y1,,,,,"/>
+<approved hash="113,1,-25.4,284.141,LM2595,,,,,"/>
+<approved hash="113,1,269.951,205.871,THERM,,,,,"/>
+<approved hash="113,1,293.963,338.015,X0-AXIS,,,,,"/>
+<approved hash="113,1,319.363,287.215,Y0-AXIS,,,,,"/>
+<approved hash="113,1,293.963,287.215,Z-AXIS,,,,,"/>
+<approved hash="113,1,319.363,338.015,X1-AXIS,,,,,"/>
+<approved hash="113,1,293.963,312.615,E0-AXIS,,,,,"/>
+<approved hash="113,1,319.363,312.615,E1-AXIS,,,,,"/>
 <approved hash="113,1,-2.7686,340.131,FRAME1,,,,,"/>
 <approved hash="113,1,145.317,215.9,Q6,,,,,"/>
 <approved hash="113,1,163.097,215.9,Q7,,,,,"/>
 <approved hash="113,1,180.877,215.9,Q8,,,,,"/>
+<approved hash="113,1,211.497,213.165,RGBLEDS,,,,,"/>
 <approved hash="113,1,152.4,178.731,L2,,,,,"/>
 <approved hash="113,1,172.72,179.612,PTC1,,,,,"/>
 <approved hash="113,1,215.9,153.331,L4,,,,,"/>
+<approved hash="113,1,269.477,167.771,ALVL,,,,,"/>
+<approved hash="113,1,347.303,338.015,X2-AXIS,,,,,"/>
+<approved hash="113,1,347.303,312.615,E2-AXIS,,,,,"/>
+<approved hash="113,1,347.303,287.215,Y1-AXIS,,,,,"/>
+<approved hash="113,1,377.783,312.615,E3-AXIS,,,,,"/>
+<approved hash="113,1,377.783,338.015,X3-AXIS,,,,,"/>
+<approved hash="113,1,309.615,177.995,CARRIAGE0,,,,,"/>
+<approved hash="113,1,309.615,152.595,CARRIAGE1,,,,,"/>
+<approved hash="113,1,342.635,177.995,CARRIAGE2,,,,,"/>
+<approved hash="113,1,342.635,150.055,CARRIAGE3,,,,,"/>
+<approved hash="113,1,166.963,287.215,SD,,,,,"/>
+<approved hash="113,1,266.619,351.401,ENDSTOPS,,,,,"/>
+<approved hash="113,1,390.013,238.371,FANS,,,,,"/>
+<approved hash="113,1,166.963,246.575,LCD,,,,,"/>
 </errors>
 </schematic>
 </drawing>

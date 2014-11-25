@@ -35087,12 +35087,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="401.32" y1="256.54" x2="281.94" y2="256.54" width="0.6096" layer="94"/>
 <text x="246.38" y="271.78" size="2.54" layer="94">Extension Pin Header</text>
 <text x="132.08" y="259.08" size="1.9304" layer="97">4D Systems Display. Communication through serial.</text>
-<text x="93.98" y="340.36" size="2.54" layer="97">RepRapBCN - Barcelona 2014
+<text x="93.98" y="340.36" size="2.54" layer="97">BCN3D - Barcelona 2014
 Marc Cobler Cosmen
-www.reprapbcn.com</text>
+www.fundaciocim.org</text>
 <text x="66.04" y="325.12" size="2.54" layer="91">Design based on the Megatronics V3.0 and SAV mkI.
 Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="66.04" y="332.74" size="2.54" layer="91">Integrated 3D printer electronics for RepRap Machines. </text>
+<text x="66.04" y="332.74" size="2.54" layer="91">Integrated electronics for controlled numeric Machines. </text>
 <text x="370.84" y="360.68" size="2.54" layer="94">Stepper outputs</text>
 <wire x1="281.94" y1="368.3" x2="401.32" y2="368.3" width="0.6096" layer="94"/>
 <wire x1="401.32" y1="368.3" x2="401.32" y2="256.54" width="0.6096" layer="94"/>
@@ -35102,7 +35102,7 @@ Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
 <wire x1="228.6" y1="368.3" x2="-60.96" y2="368.3" width="0.6096" layer="94"/>
 <wire x1="-60.96" y1="368.3" x2="-60.96" y2="309.88" width="0.6096" layer="94"/>
 <frame x1="-66.04" y1="71.12" x2="406.4" y2="373.38" columns="8" rows="5" layer="94"/>
-<text x="-12.7" y="330.2" size="2.54" layer="94">BCN3D++ Mother Board </text>
+<text x="-20.32" y="330.2" size="2.54" layer="94">BCN3D electronics MotherBoard </text>
 <text x="40.64" y="330.2" size="2.54" layer="94">A</text>
 <wire x1="129.54" y1="233.68" x2="228.6" y2="233.68" width="0.6096" layer="94"/>
 <text x="208.28" y="228.6" size="2.54" layer="94">RGB LEDs</text>
@@ -35129,6 +35129,8 @@ Normally strips go to 12V but we have 24V in our board</text>
 <wire x1="332.74" y1="137.16" x2="332.74" y2="190.5" width="0.1524" layer="98"/>
 <text x="299.72" y="134.62" size="1.778" layer="98">Dual smart Extruder config</text>
 <text x="332.74" y="134.62" size="1.778" layer="98">Dual Carriage Upgrade</text>
+<text x="-7.62" y="137.16" size="1.778" layer="98" rot="R90">Display</text>
+<text x="-7.62" y="121.92" size="1.778" layer="98" rot="R90">USB</text>
 </plain>
 <instances>
 <instance part="ATMEGA2560" gate="A" x="58.42" y="170.18"/>
@@ -35518,22 +35520,20 @@ Normally strips go to 12V but we have 24V in our board</text>
 <pinref part="GND52" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND-SCREW"/>
-<wire x1="215.9" y1="358.14" x2="218.44" y2="358.14" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="358.14" x2="218.44" y2="347.98" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="GND-SCREW"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="218.44" y1="347.98" x2="218.44" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="337.82" x2="218.44" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="327.66" x2="218.44" y2="322.58" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="327.66" x2="218.44" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND-SCREW"/>
-<wire x1="215.9" y1="337.82" x2="218.44" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND-SCREW"/>
 <wire x1="215.9" y1="347.98" x2="218.44" y2="347.98" width="0.1524" layer="91"/>
 <junction x="218.44" y="347.98"/>
+<pinref part="U$3" gate="G$1" pin="GND-SCREW"/>
+<wire x1="215.9" y1="337.82" x2="218.44" y2="337.82" width="0.1524" layer="91"/>
 <junction x="218.44" y="337.82"/>
+<pinref part="U$4" gate="G$1" pin="GND-SCREW"/>
+<wire x1="215.9" y1="327.66" x2="218.44" y2="327.66" width="0.1524" layer="91"/>
 <junction x="218.44" y="327.66"/>
-<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="X0-AXIS" gate="G$1" pin="2"/>
@@ -36404,24 +36404,6 @@ Normally strips go to 12V but we have 24V in our board</text>
 <wire x1="104.14" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$156" class="0">
-<segment>
-<pinref part="ATMEGA2560" gate="A" pin="(OC5A)_PL3"/>
-<wire x1="104.14" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$157" class="0">
-<segment>
-<pinref part="ATMEGA2560" gate="A" pin="(OC5B)_PL4"/>
-<wire x1="104.14" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$158" class="0">
-<segment>
-<pinref part="ATMEGA2560" gate="A" pin="OC5C)_PL5"/>
-<wire x1="104.14" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$159" class="0">
 <segment>
 <pinref part="ATMEGA2560" gate="A" pin="PL6"/>
@@ -37184,6 +37166,11 @@ Normally strips go to 12V but we have 24V in our board</text>
 <wire x1="345.44" y1="144.78" x2="360.68" y2="144.78" width="0.1524" layer="91"/>
 <label x="347.98" y="144.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ATMEGA2560" gate="A" pin="(OC2A/PCINT4)_PB4"/>
+<wire x1="12.7" y1="182.88" x2="-5.08" y2="182.88" width="0.1524" layer="91"/>
+<label x="-2.54" y="182.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LFAN0" class="0">
 <segment>
@@ -37215,12 +37202,22 @@ Normally strips go to 12V but we have 24V in our board</text>
 <wire x1="345.44" y1="172.72" x2="360.68" y2="172.72" width="0.1524" layer="91"/>
 <label x="347.98" y="172.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ATMEGA2560" gate="A" pin="OC5C)_PL5"/>
+<wire x1="104.14" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
+<label x="109.22" y="114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LFAN2" class="0">
 <segment>
 <pinref part="CARRIAGE2" gate="G$1" pin="3"/>
 <wire x1="345.44" y1="175.26" x2="360.68" y2="175.26" width="0.1524" layer="91"/>
 <label x="347.98" y="175.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ATMEGA2560" gate="A" pin="(OC5B)_PL4"/>
+<wire x1="104.14" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<label x="109.22" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THERM2" class="0">
@@ -37240,6 +37237,11 @@ Normally strips go to 12V but we have 24V in our board</text>
 <pinref part="CARRIAGE3" gate="G$1" pin="3"/>
 <wire x1="345.44" y1="147.32" x2="360.68" y2="147.32" width="0.1524" layer="91"/>
 <label x="347.98" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ATMEGA2560" gate="A" pin="(OC5A)_PL3"/>
+<wire x1="104.14" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
+<label x="109.22" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THERM3" class="0">
@@ -37307,12 +37309,6 @@ Normally strips go to 12V but we have 24V in our board</text>
 <wire x1="33.02" y1="269.24" x2="33.02" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="287.02" x2="55.88" y2="287.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="287.02"/>
-</segment>
-</net>
-<net name="11111" class="0">
-<segment>
-<pinref part="ATMEGA2560" gate="A" pin="(OC2A/PCINT4)_PB4"/>
-<wire x1="12.7" y1="182.88" x2="-5.08" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

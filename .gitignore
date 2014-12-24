@@ -3,7 +3,10 @@
 #################
 BOM
 GERBERS
+PDF
 *.CFG
+*.zip
+*.rar
 
 # Backup files
 *.s#?

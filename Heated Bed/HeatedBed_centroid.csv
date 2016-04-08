@@ -1,0 +1,11 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "BCNmk2.brd" as of: 09/11/2015 12:50:12
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+100K-NTC,Bottom,6.634,4.135,90
+LED1,Bottom,0.138,5.808,180
+R1,Bottom,0.138,4.955,90

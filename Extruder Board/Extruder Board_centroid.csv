@@ -1,0 +1,18 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "Smart Extruder Board.brd" as of: 09/06/2015 15:47:56
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+CFAN,Top,0.179,0.192,90
+CN1,Top,0.984,0.571,270
+ENDSTOP,Top,0.630,0.236,180
+LFAN,Top,0.179,0.534,90
+TP5,Top,0.276,0.744,0
+TP6,Top,1.212,0.942,270
+U$1,Top,1.220,1.102,0
+U$2,Top,0.945,0.118,0
+U$3,Top,0.059,0.965,0
+VERT_FFC1,Top,0.673,1.043,180

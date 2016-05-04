@@ -32,3 +32,10 @@ This is why we ensure components quality and control of the production process b
 Being in control of all the supply chain allows us to optimize designs and reduce costs.
 
 ## Contributing
+
+If you own a BCN3D Sigma and electronics is your thing, feel free to post an [issue](https://github.com/BCN3D/BCN3D-Electronics/issues). We know this is still an 8-bit platform but we're working on optimizing it to the max and thinking in the next generation of 3D Printing Electronics. Always Open Source.
+
+### License
+
+Under the **LICENSE** folder you'll find all the information about the license. We've chosen CERN Open Hardware License and you must follow the guidelines as we had. All the documentation is available to you to study it, modify it and share it.
+In addition, if modifications are made and distributed, it must be under the same licence conditions – this is the ‘persistent’ nature of the licence, which ensures that the whole community will continue benefiting from improvements, in the sense that everyone will in turn be able to make modifications to these improvements.

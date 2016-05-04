@@ -4,7 +4,7 @@ This repository will hold all the information about the Electronics of the BCN3D
 
 As a declared Open Source organization, it's in our mission to release all the original design files to you to be able to learn, reuse and improve. Open Source not only means code, it also concerns hardware.
 
-We've manage to design and manufacture our custom Electronics for the BCN3D Sigma in many ways thanks to the community an other Open Source Hardware projects.
+We've managed to design and manufacture our custom Electronics for the BCN3D Sigma in many ways thanks to the community and other Open Source Hardware projects.
 BCN3D Electronics is a mashup between the [Ultimaker 2 Board](https://github.com/Ultimaker/Ultimaker2) , the [Megatronics v3.0](http://reprap.org/wiki/Megatronics_3.0) and some others...
 
 ## Design concept

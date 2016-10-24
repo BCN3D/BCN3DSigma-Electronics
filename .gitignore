@@ -8,7 +8,7 @@ Expediente tecnico
 Dual carriage Upgrade
 Filament detector
 BOM & Info
-Silent Stepper Driver
+Prototypes
 *.CFG
 *.zip
 *.rar
@@ -47,6 +47,9 @@ eagle.epf
 *.info
 
 *.eps
+
+# Lock Files
+*.lck
 
 #################
 ## Eclipse

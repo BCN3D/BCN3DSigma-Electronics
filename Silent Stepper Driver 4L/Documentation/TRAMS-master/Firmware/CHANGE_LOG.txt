@@ -1,0 +1,12 @@
+
+V0.91:
+-Cleaned up, removed comments and unused lines
+-TRAMS has its own board configuration
+-Homing uses defines from Configuration.h
+
+V0.92:
+-Smoother circles and corners
+
+V0.93
+-StallGuard2 added. ATTENTION: still in beta phase
+-In configuration.h you can now choose the homing direction and the homing switch (left/right)

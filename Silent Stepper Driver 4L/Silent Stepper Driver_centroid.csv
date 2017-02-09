@@ -1,0 +1,39 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "Silent Stepper Driver.brd" as of: 13/12/2016 11:43
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+ADJUST,Top,1.161,0.157,180
+C1,Top,0.513,0.355,180
+C2,Top,0.593,0.258,270
+C3,Top,0.644,0.718,90
+C4,Top,0.648,0.258,270
+C5,Top,0.748,0.987,270
+C6,Top,0.702,0.258,270
+C7,Top,0.890,0.064,0
+C8,Top,0.546,0.918,90
+C9,Top,1.134,0.558,0
+C10,Top,0.507,0.420,180
+C11,Top,0.498,0.582,180
+CFG1,Top,1.140,0.390,270
+CFG2,Top,1.050,0.390,270
+CFG3,Top,0.960,0.384,270
+CFG6,Top,1.071,0.707,180
+D1,Top,1.029,0.586,270
+D2,Top,0.474,0.492,180
+DIA0,Top,0.462,0.744,0
+DIA1,Top,0.462,0.684,0
+FFC2,Top,1.447,0.580,90
+IC1,Top,0.756,0.480,90
+L1,Top,1.134,0.612,0
+R1,Top,0.846,0.227,90
+R2,Top,0.780,0.726,270
+R3,Top,1.248,0.306,270
+R4,Top,0.639,0.064,180
+R6,Top,0.767,0.064,0
+U$2,Top,1.484,0.066,0
+U$3,Top,0.076,0.364,0
+U$4,Top,1.020,1.056,0

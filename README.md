@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/BCN3D/BCN3DSigma-Electronics.svg)](https://gitter.im/BCN3D/BCN3DSigma-Electronics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # BCN3D Electronics
 
 This repository will hold all the information about the Electronics of the BCN3D Sigma.

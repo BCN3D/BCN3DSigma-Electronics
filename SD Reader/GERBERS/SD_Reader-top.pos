@@ -1,0 +1,18 @@
+### Module positions - created on 04/10/17 16:52:49 ###
+### Printed by Pcbnew version kicad 4.0.5
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                 Package                                                  PosX       PosY       Rot  Side
+C1        1u                  C_0603                                               122.5000   -90.5000   90.0000  top
+C2        10n                 C_0603                                               124.6505   -86.0425  270.0000  top
+C3        1u                  C_0603                                               127.3500   -98.7500   90.0000  top
+C4        47u                 C_1210                                               121.0000   -81.5000   90.0000  top
+C5        10u                 C_0805                                               123.8250   -82.0000   90.0000  top
+D1        LED_ALT             LED_0603                                             132.2070   -80.2640  180.0000  top
+L1        Ferrite_Bead_Small  R_0603                                               120.5000   -90.6310   90.0000  top
+P1        CONN_01X06          Pin_Header_Straight_1x06_Pitch2.54mm_SMD_Pin1Right   114.0675   -95.4630    0.0000  top
+R1        1k                  R_0603                                               124.7140   -88.9000  270.0000  top
+R2        1k                  R_0603                                               128.9050   -80.2640    0.0000  top
+U1        LD3985M33R          SOT-23-5                                             121.7150   -86.5670   90.0000  top
+U2        4050                SO-16-N                                              122.0500  -101.8500  270.0000  top
+## End

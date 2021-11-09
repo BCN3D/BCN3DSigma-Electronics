@@ -24,7 +24,7 @@ The BCN3D Electronics is intended to be modular and custom fitted in our BCN3D S
 + **Stepper Driver:** We carry the well-known DRV8825 stepper driver from Texas Instruments. It's able to supply plenty of power for all the types of stepper motors in the BCN3D Sigma.
 + **Extruder Board:** It's a simple interconnection board between the Mainboard and the components of the hotend assembly. With just one Flat Flexible Cable you the microcontroller has control over the hotend, the thermistor and endstop readings and the layer fan.
 + **Heated Bed:** As the platform size of the BCN3D Sigma is quite big, we've made a custom A4 size heated bed to achieve the performance required. It can heat up to 100ºC in about 6-8 minutes and keep that temperature for long period of times.
-+ **SD Reader:** We've design our own SD Reader module with better signal integrity and better power supply requirements. This board has been designed entirely in [KiCAD Open Source software](http://kicad-pcb.org/). 
++ **SD Reader:** We've design our own SD Reader module with better signal integrity and better power supply requirements. This board has been designed entirely in [KiCAD Open Source software](http://kicad.org/). 
 
 
 ## Production
